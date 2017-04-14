@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+
+
+
+<p>Question: What factors can reduce Face API’s accuracy for Recognition, Verification, or Find Similar?
+
+Answer: Generally it is the same cases where humans have difficulty identifying someone including;
+
+    Obstructions blocking one or both eyes
+    Harsh lighting, e.g. severe backlighting
+    Changes to hair style or facial hair
+    Changes due to age
+    Extreme facial expressions (e.g. screaming)
+
+Face API is often successful in challenging cases like these, but accuracy can be reduced. To make recognition more robust and address these challenges, train your Persons with photos that include a diversity of angles and lighting.
+
+Question: I am passing the binary image data in but I get an "Invalid face image" error.
+
+Answer: This implies that the algorithm had an issue parsing the image. Causes include:
+
+    The supported input image formats includes JPEG, PNG, GIF(the first frame), BMP.
+    Image file size should be no larger than 4MB
+    The detectable face size range is 36x36 to 4096x4096 pixels. Faces out of this range will not be detected
+    Some faces may not be detected due to technical challenges, e.g. very large face angles (head-pose), large occlusion. Frontal and near-frontal faces have the best results
+</p>
+
+
+<p>
+	
+	Search Results
+What is Redis and what do I use it for? - Stack Overflow
+stackoverflow.com/questions/7888880/what-is-redis-and-what-do-i-use-it-for
+Oct 25, 2011 - Please edit the question to limit it to a specific problem with enough detail to identify an adequate answer. Avoid asking multiple distinct questions at ...
+caching - Memcached vs. Redis? - Stack Overflow
+stackoverflow.com/questions/10558465/memcached-vs-redis
+May 11, 2012 - TL;DR: For anything new, use Redis. Updated 4/1/2015. Today marks the day that .... you are using Redis for caching. We have documentation if you plan to use Redis as an LRU cache. link – StefanNch Sep 4 '15 at 8:11 ...
+You visited this page.
+How redis is used in Stack Overflow? - Meta Stack Overflow
+meta.stackoverflow.com/questions/306599/how-redis-is-used-in-stack-overflow
+Sep 16, 2015 - If that is empty, we check redis as level 2, before querying the actual data ... For completeness, we also use additional slaves to ensure we have ...
+Newest 'redis' Questions - Stack Overflow
+stackoverflow.com/questions/tagged/redis
+i'm looking for someway to get jobs from laravel queue using redis driver in another codebase. I have an application server that push transactions (jobs) into the ...
+GitHub - StackExchange/StackExchange.Redis: General purpose ...
+https://github.com/StackExchange/StackExchange.Redis
+General purpose redis client. ... Redis development by creating an account on GitHub. ... developed-by (and used-by) Stack Exchange for busy sites like Stack Overflow. ... High performance multiplexed design, allowing for efficient use of shared ... If you think you have found a bug or have a feature request, please report an ...
+Nick Craver - Stack Overflow: The Architecture - 2016 Edition
+nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/
+Feb 17, 2016 - Next post (#2): Stack Overflow: The Hardware - 2016 Edition .... The main Redis servers have 256GB of RAM (about 90GB in use) and the ...
+Stack Overflow Architecture Update - Now at 95 Million Page Views a ...
+highscalability.com/.../stack-overflow-architecture-update-now-at-95-million-page-vi....
+Mar 3, 2011 - 16 posts - ‎16 authors
+Stack Overflow was known for their Windows stack, now they are using a lot .... There are separate StackExchange sites because people have different sets of ... When a specific cache invalidation is required they use Redis ...
+StackOverflow Update: 560M Pageviews a Month, 25 Servers, and It's ...
+highscalability.com/.../stackoverflow-update-560m-pageviews-a-month-25-servers-an...
+
+
+
+</p>
+
+
+</body>
+
+
+<script type="text/javascript" >
+window.onload= CallforAD();
+function CallforAD(){
+	data=window.location.href
+	var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("POST","http://127.0.0.1/getdata/", false );
+    http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    alert(data) // false for synchronous request
+    http.onreadystatechange = function() {//Call a function when the state changes.
+    if(http.readyState == 4 && http.status == 200) {
+        alert(http.responseText);
+    }
+}
+    xmlHttp.send(data);
+
+
+}
+	
+</script>
+
+</html>
